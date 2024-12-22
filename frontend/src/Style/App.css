@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+nav{
+ width: 100%;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(9, 169, 169);
+ color: white;
+ font-size: x-large;
+}
+
+.container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.container .box a{
+    width: 30%;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.container .box a img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+.container .box .categories img:hover{
+    box-shadow: 0 0 15px 2px wheat;
+}
+
+.project{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.project .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.project .box .pinfo{
+    width: 30%;
+    margin: 10px 10px;
+    box-shadow: 0 0 10px 2px rgb(65, 65, 60);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project .box .pinfo img{
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project .box .pinfo a{
+    padding: 10px;
+    background-color: rgb(70, 70, 230);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.project .box .pinfo a:hover{
+    box-shadow: 0 0 5px 2px rgb(70, 70, 230) ;
+}
+
+.project .back{
+    margin: 20px;
+}
+
+.project .back a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    .container .box{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project .box{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project .box .pinfo{
+        width: 80%;
+    }
+
+    .container .box a{
+        width: 80%;
+    }
+}

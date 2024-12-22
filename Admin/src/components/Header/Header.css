@@ -1,0 +1,35 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .input-group .form-control {
+    border-radius: 50px;
+  }
+  
+  .input-group-text {
+    background-color: transparent;
+  }
+  
+  .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .profile {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .bell-icon {
+    cursor: pointer;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .gap-3 {
+    gap: 16px;
+  }
+  
